@@ -1,0 +1,45 @@
+body{
+    background: rgb(25,25,25);
+}
+
+
+.case{
+    display: inline-block;
+    width: 133px;
+    height: 399px;
+    margin:0;
+    padding: 0;
+}
+
+.conteneur{
+    width: fit-content;
+    height: 399px;
+    padding: 0;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+.conteneur:nth-child(4){
+    border:none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.case-drop{
+    background-color: rgb(35,35,35);
+}
+
+.case-valid{
+    background-color: white;
+}
+
+h1{
+    color: green;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+button{
+    display: block;
+    margin: 0 auto;
+}
