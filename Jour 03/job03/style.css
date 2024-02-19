@@ -1,0 +1,13 @@
+#puzzle-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 1px;
+  }
+  .puzzle-piece {
+    align-items: center;
+    justify-content: center;
+    > img{
+        width: 100px;
+        height: 100px;
+    }
+  }
