@@ -7,14 +7,16 @@
     <meta name="author" content="Jessy Charlet" />
     <meta name="description" content="Runetrack3" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
 </head>
 
 <body>
+    <h1>Pokedex</h1>
 <form method="" id="pokedex" action="">
     <label for="id">Numéro Pokedex de Kanto :</label>
-<input type="text" id="id" id="id" />
+<input type="text" id="id" id="id" /></br>
 <label for="nom">Nom du Pokémon :</label>
-<input type="text" name="nom" id="nom" />
+<input type="text" name="nom" id="nom" /></br>
 <label for="type">Type du Pokémon</label>
 <select name="type" id="type">
   <option value="">--Type du Pokémon--</option>
@@ -34,10 +36,10 @@
   <option value="Ice">Ice</option>
   <option value="Ghost">Ghost</option>
   <option value="Dragon">Dragon</option>
-</select>
+</select></br>
 <input type="button" id="filtrer" value="Filtrer" />
-<ul></ul>
 </form>
+<div id="content"></div>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="./script.js"></script>
 </body>
