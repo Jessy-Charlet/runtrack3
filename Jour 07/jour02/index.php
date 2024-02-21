@@ -7,17 +7,17 @@
     <meta name="author" content="Jessy Charlet" />
     <meta name="description" content="Runetrack3" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../src/output.css" rel="stylesheet">
+    <link href="../../src/output.css" rel="stylesheet">
 </head>
 
 <body>
-<header>
+<header class="h-10 bg-gradient-to-r from-purple-500 to-pink-500">
     <nav>
-    <ul>
-    <li><a href="*">Accueil</a></li>
-    <li><a href="*">Inscription</a></li>
-    <li><a href="*">Connexion</a></li>
-    <li><a href="*">Rechercher</a></li>
+    <ul class="flex-row grid grid-cols-4 w-2/4 m-auto place-self-center h-full ">
+    <li class="h-10 text-center"><a href="*" class="block h-10 align-middle leading-10 hover:bg-gradient-to-t from-purple-500 to-pink-500 hover:text-white">Accueil</a></li>
+    <li class="h-10 text-center"><a href="*" class="block h-10 align-middle leading-10 hover:bg-gradient-to-t from-purple-500 to-pink-500 hover:text-white">Inscription</a></li>
+    <li class="h-10 text-center"><a href="*" class="block h-10 align-middle leading-10 hover:bg-gradient-to-t from-purple-500 to-pink-500 hover:text-white">Connexion</a></li>
+    <li class="h-10 text-center"><a href="*" class="block h-10 align-middle leading-10 hover:bg-gradient-to-t from-purple-500 to-pink-500 hover:text-white">Rechercher</a></li>
 </ul>
     </nav>
 </header>
