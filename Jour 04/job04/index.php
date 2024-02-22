@@ -10,7 +10,21 @@
 </head>
 
 <body>
-    <button id="update">Update</button>
+<button id="update">Update</button>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody id="userTableBody">
+        <!-- Les données seront insérées ici après la mise à jour -->
+    </tbody>
+</table>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="./script.js"></script>
 </body>
